@@ -82,5 +82,5 @@ Reflektion kring att testresultatet blev som det blev.</h4>
 
 <p>Efter att ha tagit bort onödiga js och css filer och bytt ut visa mot minfierade varianter så har nu storleken minskat till ca 180kb.</p>
 
-<p>Inlogg efter att ha tagit på dökod i js och ändrat css : 679ms.</p>
+<p>Inlogg efter att ha tagit bort dökod i js och ändrat css : 679ms.</p>
 <p>Inlogg efter att ha ändrat inläkningar och lagt in minifierade css och js filer : 616ms.</p>
