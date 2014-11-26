@@ -115,5 +115,3 @@ jag hade först en sats som tittade på senaste datumet men nu letar den efter �
 </p>
 <p>Fördelen med polling är att man kan hålla uppe realtidskommunikation</p>
 <p>Man håller alltså kommunikation öppen mot databsen hela tiden, vilket kanske inte är så bra då det kan ta en del prestanda.</p>
-
-
