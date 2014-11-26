@@ -1,6 +1,6 @@
 <h1>Lab 2</h1>
 
-<a href="http://eerie.se/lab2webt2/1DV449_L02/index.php">Körbar länk</a>
+<a href="http://eerie.se/lab2webt2/1DV449_L02/index.php">Körbar version</a>
 <h2>Del 1</h2>
 <h4>Redogör för det säkerhetshål du hittat</h4>
 
@@ -88,6 +88,7 @@ Reflektion kring att testresultatet blev som det blev.</h4>
 <p>Inlogg efter att ha ändrat inläkningar och lagt in minifierade css och js filer : 616ms.</p>
 
 
+Detta är testat lokalt
 
 <h2>Del 3</h2>
 
@@ -109,7 +110,10 @@ Fixat genom att skriva en separat funktion som endast hämtar meddelande med sen
 Jag skrev om getMessages funktion som redan fanns implementerad och satt ett intervall på den. Alltså polling
 I getMessages klassen i php, som JS funktionen kallar på, så gör den ett eget interval på 20sekunder
 där den ligger uppe och väntar på att något nytt ska hända i databasen.
+jag hade först en sats som tittade på senaste datumet men nu letar den efter ändring i arraystorlek för att skriva ut nya meddelanden.
+
 </p>
+<p>Fördelen med polling är att man kan hålla uppe realtidskommunikation</p>
 <p>Man håller alltså kommunikation öppen mot databsen hela tiden, vilket kanske inte är så bra då det kan ta en del prestanda.</p>
-<p>Fördelen med polling är ju att man kan hålla uppe realtidskommunikation</p>
+
 
