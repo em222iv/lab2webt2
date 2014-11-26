@@ -1,4 +1,6 @@
 <h1>Lab 2</h1>
+
+<a href="http://eerie.se/lab2webt2/1DV449_L02/index.php">Körbar länk</a>
 <h2>Del 1</h2>
 <h4>Redogör för det säkerhetshål du hittat</h4>
 
@@ -84,3 +86,30 @@ Reflektion kring att testresultatet blev som det blev.</h4>
 
 <p>Inlogg efter att ha tagit bort dökod i js och ändrat css : 679ms.</p>
 <p>Inlogg efter att ha ändrat inläkningar och lagt in minifierade css och js filer : 616ms.</p>
+
+
+
+<h2>Del 3</h2>
+
+<h4>Sista skrivna meddelandet ska hamna högst upp i meddelandelistan</h4>
+<p>
+Fixat genom att hämta ut meddelande BY DESC
+</p>
+
+
+
+
+<h4>Bara de nya meddelanden som inte tidigare skickas ut till klienten ska skickas ut vid en uppdatering.</h4>
+<p>
+Fixat genom att skriva en separat funktion som endast hämtar meddelande med senast tid inlagd
+</p>
+
+<h4>Du förklarar din implementation i din laborationsrapport samt reflekterar över de för- och nackdelar som finns med en denna lösning.</h4>
+<p>
+Jag skrev om getMessages funktion som redan fanns implementerad och satt ett intervall på den. Alltså polling
+I getMessages klassen i php, som JS funktionen kallar på, så gör den ett eget interval på 20sekunder
+där den ligger uppe och väntar på att något nytt ska hända i databasen.
+</p>
+<p>Man håller alltså kommunikation öppen mot databsen hela tiden, vilket kanske inte är så bra då det kan ta en del prestanda.</p>
+<p>Fördelen med polling är ju att man kan hålla uppe realtidskommunikation</p>
+
